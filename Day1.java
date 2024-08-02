@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// You need to return one array of the same length first filled with even numbers and then by odd number
 class Day1 {
     public static int[] evenOdd(int[] numbers) {
         int n = numbers.length;
