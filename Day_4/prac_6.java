@@ -1,5 +1,5 @@
 import java.io.*;
-
+// check whether the user input number is Perfect number or not 
 public class prac_6 {
     public static void main(String[] args) {
         BufferedReader bc = new BufferedReader(new InputStreamReader(System.in));
