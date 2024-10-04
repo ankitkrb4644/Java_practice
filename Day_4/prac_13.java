@@ -1,5 +1,5 @@
 import java.io.*;
-// Pascal's Triangle up to 
+// Pascal's Triangle up to
 public class prac_13 {
     public static void main(String[] args) {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
