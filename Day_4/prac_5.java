@@ -1,5 +1,5 @@
 import java.io.*;
-
+// check whether the user input number is Armstrong or not 
 public class prac_5 {
     public static void main(String[] args) {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
