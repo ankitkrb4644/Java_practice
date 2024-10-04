@@ -1,5 +1,6 @@
 import java.io.*;
 public class prac_9 {
+    // the sum of the digits of a given number
     public static void main(String[] args) throws IOException {
         BufferedReader bc = new BufferedReader(new InputStreamReader(System.in));
         try{

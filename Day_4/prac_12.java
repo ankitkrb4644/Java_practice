@@ -1,5 +1,5 @@
 import java.io.*;
-
+// sum of all elements in an array
 public class prac_12 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

@@ -1,5 +1,5 @@
 import java.io.*;
-
+// Identify duplicates in an array 
 public class prac_11 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
