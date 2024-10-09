@@ -12,7 +12,6 @@ public static void changeCase(String s){
         int n = Integer.parseInt(read.readLine());
         while( n-- > 0){
             String s = read.readLine().trim();
-            
             changeCase(s);
         }
     }
