@@ -1,5 +1,6 @@
 package Day_4;
 import java.io.*;
+// find speed of the train using BufferedReader
 public class prac_1 {
     public static void main(String arg[]){
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
