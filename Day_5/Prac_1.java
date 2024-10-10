@@ -1,5 +1,5 @@
 import java.io.*;
-class Prac_1{
+public class Prac_1{
 public static void changeCase(String s){
     // code here
     String result = s.substring(0, 1).toUpperCase() + s.substring(1);
@@ -9,9 +9,11 @@ public static void changeCase(String s){
 }
     public static void main(String args[])throws IOException{
         BufferedReader read = new BufferedReader( new InputStreamReader(System.in));
-        int n = Integer.parseInt(read.readLine());
-        while( n-- > 0){
+        int t = Integer.parseInt(read.readLine());
+        while( t-- > 0){
+            
             String s = read.readLine().trim();
+            
             changeCase(s);
         }
     }
