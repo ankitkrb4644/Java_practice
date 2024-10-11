@@ -36,7 +36,8 @@ class prac_4 {
         return primeCount; // Return the total count of primes
     }
 
-    // Method to print all primes less than n
+    // Method to print all primes less than n 
+    // In this function we use same code from boolean till Sieve of Eratosthenes then you create a for loop and print all prime numbers
     public static void printPrimes(int n) {
         boolean[] isPrime = new boolean[n];
         for (int i = 2; i < n; i++) {
@@ -65,8 +66,7 @@ class prac_4 {
         int n = Integer.parseInt(reader.readLine()); // Read the input as a string and parse it as an integer
 
         // Call the countPrimes method to get the total number of primes
-        int count = countPrimes(n);
-        System.out.println("Number of prime numbers less than " + n + ": " + count);
+        System.out.println("Number of prime numbers less than " + n + ": " + countPrimes(n));
 
         // Call the printPrimes method to print all the prime numbers
         printPrimes(n);
