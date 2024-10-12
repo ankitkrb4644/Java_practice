@@ -1,6 +1,6 @@
 import java.io.*;
 class prac_5 {
-//ADD Digits e.g:-
+//ADD Digits of a Number e.g:-
 // input : 38
 // output: 2
     public static int addDigits(int num) {
