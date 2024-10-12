@@ -1,4 +1,4 @@
-
+// change toUpperCase of index 1 in an string 
 import java.io.*;
 public class Prac_1{
 public static void changeCase(String s){

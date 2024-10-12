@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+// find the prime number upto n-1.
 class prac_4 {
     // Optimized method using Sieve of Eratosthenes to count primes less than n
     public static int countPrimes(int n) {
