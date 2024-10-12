@@ -1,14 +1,16 @@
+// Example 1: 
+// Input:
+// s = "hello"
+// Output: 
+// Hello
+// HELLO
+// Explanation: In Hello,the first letter is
+// capitalized. In HELLO all letters are in
+// the uppercase.
 import java.io.*;
-
 public class Prac_1 {
     public static void main(String args[]) throws IOException {
         BufferedReader read = new BufferedReader(new InputStreamReader(System.in));
-
-        // Reading number of test cases
-        int t = Integer.parseInt(read.readLine());
-
-        // Loop through all test cases
-        while (t-- > 0) {
 
             // Read input string
             String s = read.readLine().trim();
@@ -23,5 +25,4 @@ public class Prac_1 {
             String s1 = s.toUpperCase();
             System.out.println("Uppercase String: " + s1);
         }
-    }
 }
