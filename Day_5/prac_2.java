@@ -13,9 +13,6 @@ public class prac_2 {
         char c1 = bc.readLine().trim().charAt(0);
         char c2 = bc.readLine().trim().charAt(0);
 
-            alphabets(c1, c2);
-    }
-public static void alphabets(char c1 , char c2) {
         if(c1 <= c2){
             for(char ch=c1; ch<=c2; ch++){
                 System.out.print(ch + " ");
@@ -27,5 +24,19 @@ public static void alphabets(char c1 , char c2) {
             }
         }
         System.out.println();
+            // alphabets(c1, c2);
     }
+// public static void alphabets(char c1 , char c2) {
+//         if(c1 <= c2){
+//             for(char ch=c1; ch<=c2; ch++){
+//                 System.out.print(ch + " ");
+//             }
+//         }
+//         else {
+//             for(char ch = c1; ch >= c2; ch--){
+//                 System.out.print(ch + " ");
+//             }
+//         }
+//         System.out.println();
+//     }
 }
